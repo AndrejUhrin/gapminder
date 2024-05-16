@@ -45,8 +45,7 @@ fig = px.scatter(
     size="population",
     color="country",
     log_x=True,  
-    range_x=[merged_df['gni_per_capita'].min(), merged_df['gni_per_capita'].max()],
-    width=1200, height=700
+    range_x=[merged_df['gni_per_capita'].min(), merged_df['gni_per_capita'].max()]
 )
 
 fig.update_layout(
